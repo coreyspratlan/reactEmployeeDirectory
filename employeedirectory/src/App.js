@@ -15,23 +15,34 @@ import employees from "./employees.json";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    employees
+    allEmployees: employees,
+    filteredEmployees: employees
   };
+
+  handleInputChange = event => {
+    // Getting the value and name of the input which triggered the change
+    const { name, value } = event.target;
+
+    const  filteredEmployees = this.state.allEmployees.filter(employee => employee[name].includes(value))
+    // Updating the input's state
+    this.setState({
+       filteredEmployees
+    });
+};
 
   render() {
     return (
 
       <div>
-        {this.state.employees.filter(employee => (
+        {/* {this.state.employees.filter(employee => ( */}
           <Form1 
-            
+            handleInputChange={this.handleInputChange}
           
           
           />
 
-        ))}
        
-        {this.state.employees.map(employee => (
+        {this.state.filteredEmployees.map(employee => (
           <Table
             employees = {employees}
             id={employee.id}

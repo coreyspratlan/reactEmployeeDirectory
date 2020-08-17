@@ -15,13 +15,13 @@ function Table(props) {
         <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-6">
-                <div className="card border-secondary mb-3" style={{ maxWidth: 1000 }}>
-                    <div className="card-header border-secondary text-center"><b>{props.title}</b></div>
+                <div className="card border-secondary  mb-3" style={{ maxWidth: 1000 }}>
+                    <div className="card-header bg-dark text-white border-secondary text-center"><b>{props.title}</b></div>
                     <div className="card-body text-secondary">
-                        <h5 className="card-title text-center">{props.firstName} {props.lastName}</h5>
+                        <h5 className="card-title text-black text-center"><b>{props.firstName} {props.lastName}</b></h5>
                         <p className="card-text"></p>
                     </div>
-                    <div className="card-footer border-secondary text-center"><b>{props.location}</b></div>
+                    <div className="card-footer border-secondary text-black text-center"><b>{props.location}</b></div>
                 </div>
             </div>
             <div className="col-md-3"></div>
