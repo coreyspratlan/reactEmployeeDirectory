@@ -5,22 +5,23 @@ import React, { Component } from "react";
 class Form1 extends Component {
     // Setting the component's initial state
     state = {
+        title: "",
         firstName: "",
         lastName: "",
-        title: "",
         location: ""
     };
 
     handleInputChange = event => {
         // Getting the value and name of the input which triggered the change
-        let value = event.target.value;
-        const name = event.target.name;
+        const { name, value } = event.target;
+
 
         // Updating the input's state
         this.setState({
             [name]: value
         });
     };
+
 
     handleFormSubmit = event => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
@@ -38,6 +39,8 @@ class Form1 extends Component {
 
     render() {
 
+   
+        
         return (
 
             <div className="jumbotron text-center">
@@ -108,6 +111,7 @@ class Form1 extends Component {
                     <div className="col-md-3"></div>
                 </div>
                 <br />
+                <button onClick={this.handleFormSubmit} type="button" className="btn btn-dark">Filter Search</button>
             </div>
         );
     }

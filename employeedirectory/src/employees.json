@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "title": "CEO",
+        "firstName": "Kevin",
+        "lastName": "Currier",
+        "location": "Austin, TX"
+    },
+
+    {
+        "id": 2,
+        "title": "Construction Project Manager",
+        "firstName": "Jeff",
+        "lastName": "Judd",
+        "location": "Austin, TX"
+    },
+
+    {
+        "id": 3,
+        "title": "CEO Emeritus",
+        "firstName": "Robert",
+        "lastName": "Currier",
+        "location": "Alpena, MI"
+    },
+
+    {
+        "id": 4,
+        "title": "IT Specialist",
+        "firstName": "Corey",
+        "lastName": "Spratlan",
+        "location": "Austin, TX"
+    },
+
+    {
+        "id": 5,
+        "title": "Business Operations",
+        "firstName": "Sarah",
+        "lastName": "Bartholomew",
+        "location": "Austin, TX"
+    },
+
+    {
+        "id": 6,
+        "title": "Business Associate",
+        "firstName": "Kim",
+        "lastName": "Aleman",
+        "location": "Round Rock, TX"
+    },
+
+    {
+        "id": 7,
+        "title": "Business Associate",
+        "firstName": "Ross",
+        "lastName": "Aleman",
+        "location": "Round Rock, TX"
+    },
+
+    {
+        "id": 8,
+        "title": "Business Associate",
+        "firstName": "Zach",
+        "lastName": "Aleman",
+        "location": "Round Rock, TX"
+    },
+
+    {
+        "id": 9,
+        "title": "Business Associate",
+        "firstName": "Liz",
+        "lastName": "Aleman",
+        "location": "Round Rock, TX"
+    },
+
+    {
+        "id": 10,
+        "title": "Security",
+        "firstName": "Cliff",
+        "lastName": "Spratlan",
+        "location": "Austin, TX"
+    },
+
+    {
+        "id": 11,
+        "title": "Security",
+        "firstName": "Cliffy",
+        "lastName": "Spratlan",
+        "location": "Montgomery, TX"
+    },
+
+    {
+        "id": 12,
+        "title": "Visibility Team",
+        "firstName": "Linda",
+        "lastName": "Currier",
+        "location": "Alpena, MI"
+    },
+
+    {
+        "id": 13,
+        "title": "Visibility Team",
+        "firstName": "Nancy",
+        "lastName": "Spratlan",
+        "location": "Austin, TX"
+    },
+
+    {
+        "id": 14,
+        "title": "Visibility Team",
+        "firstName": "Misty",
+        "lastName": "Spratlan",
+        "location": "Mongomery, TX"
+    }
+    
+]
