@@ -16,7 +16,7 @@ React JS
 
 Github: https://github.com/coreyspratlan/reactEmployeeDirectory
 
-Git Pages: 
+Heroku:   
 
 
 
